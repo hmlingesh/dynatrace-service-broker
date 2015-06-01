@@ -17,6 +17,16 @@ In order to automate the deployment process as much as possible, the project con
 $ mvn package
 $ cf push
 ```
+## Gradlew setup
+_This project has enabled for gradle build. 
+
+build.gradle - this file has enabled for spring-boot plugin and  source and target jdk for 1.8+.
+
+```bash
+$ gradle build
+$ cf push <app-name> -p /build/libs/dynatrace-service-broker-1.0.0-SNAPSHOT.jar
+```
+
 
 ### Environment Variables
 Since the application is designed to work in a PaaS environment, all configuration is done with environment variables.  The `server` and `profile` value is the only one that is provided by Dynatrace.  All others are unique to a deployment.
