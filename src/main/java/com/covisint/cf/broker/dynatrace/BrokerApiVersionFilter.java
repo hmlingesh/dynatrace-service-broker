@@ -26,6 +26,14 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.stream.Stream;
 
+/**
+ * Class: BrokerApiVersionFilter.java
+ * Description: This is the Filter class which verify the request headers before reaching controller
+ *
+ *@version 1.0, 2015-06-01
+ *@author lingesh - happiest minds-covisint
+ *
+ */
 final class BrokerApiVersionFilter extends OncePerRequestFilter {
 
     private static final String HEADER = "X-Broker-Api-Version";

@@ -4,6 +4,15 @@ import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;
 
+/**
+ * Class: DynaTraceServiceTestSuiteRunner.java
+ * Description: DynaTraceServiceTestSuiteRunner will be used for running all unit testing and integration testing.
+ *
+ *@version 1.0, 2015-06-01
+ *@author lingesh - happiest minds-covisint
+ *
+ */
+
 public class DynaTraceServiceTestSuiteRunner {
 
 	public static void main(String[] args) {

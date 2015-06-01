@@ -16,6 +16,15 @@ import com.covisint.cf.broker.dynatrace.catalog.ServiceTest;
 import com.covisint.cf.broker.dynatrace.provisioning.ProvisioningRequestTest;
 import com.covisint.cf.broker.dynatrace.provisioning.ProvisioningResponseTest;
 
+/**
+ * Class: DynaTraceServerJunitTestSuite.java
+ * Description: Suit class for DynaTraceServerJunitTestSuite purpose.
+ *
+ *@version 1.0, 2015-06-01
+ *@author lingesh - happiest minds-covisint
+ *
+ */
+
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
 	CredentialsTest.class,
